@@ -1,0 +1,82 @@
+.menu{
+    display: flex;
+    margin-right: 20px;
+    
+}
+
+.menu h5{
+    margin-left: 20px;
+}
+
+.logo{
+    
+    margin-left: 15px;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+.Header{
+    padding: 20px;
+    color: #fff;
+    margin-top: 15px;
+}
+
+body{
+    background: linear-gradient(to bottom, #0000ff 0%, #cc00ff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Dropdown-control {
+    position: relative !important;
+    overflow: visible !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: none !important;
+    box-sizing: none !important;
+    color: #fff !important;
+    cursor: default !important;
+    outline: none !important;
+    padding: 0px !important;
+    transition: none !important;
+}
+
+.Dropdown-arrow {
+    /* border-color: #fff transparent transparent; */
+    border-color: transparent transparent !important;
+    border-style: solid;
+    border-width: 5px 5px 0;
+    content: ' ';
+    display: block;
+    height: 0;
+    margin-top: -ceil(2.5);
+    position: absolute;
+    top: 12px !important;
+    width: 0;
+    left: 92px !important;
+}
+
+.Dropdown-menu {
+    background-color: #cc00ff !important;
+    border: none !important;
+    box-shadow: 0 1px 0 rgb(0 0 0 / 6%);
+    box-sizing: border-box;
+    margin-top: 5px !important;
+    max-height: 250px !important;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    width: 140px !important;
+    z-index: 1000;
+}
+
+.Header a{
+    color: white;
+    text-decoration: none !important;
+}
+
+.Header a:hover{
+    color: silver;
+    text-decoration: none !important;
+}

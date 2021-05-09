@@ -1,0 +1,27 @@
+.Footer{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px;
+    margin-top: 370px;
+    /* bottom: 0;
+    position: absolute;
+    width: 100%; */
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.menu-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-footer h6{
+    margin-left: 50px;
+    color:black;
+}
+
+

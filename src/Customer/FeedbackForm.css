@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.wrapper-feedbackform{
+    width: 650px;
+    height: 700px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+    margin: 50px auto;
+  }
+
+  .wrapper-feedbackform .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    user-select: none;
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+  }
+
+
+
+.experience{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -15px;
+
+}
+
+.wrapper-feedbackform form .field{
+    height: 40px;
+    width: 50%;
+    margin-top: 40px;
+    position: absolute;
+    float: left;
+    margin-left: 70px;
+    
+}
+
+
+
+.wrapper-feedbackform form .field input[type="text"]{
+    height: 100px;
+    width: 71%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.wrapper-feedbackform form .field label{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    color: #999999;
+    font-weight: 400;
+    font-size: 17px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+  }
+
+
+  .wrapper-feedbackform form .field{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+.wrapper-feedbackform form .field input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.wrapper-feedbackform form .field input:focus,
+form .field input:valid{
+  border-color: #4158d0;
+}
+.wrapper-feedbackform form .field label{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  color: #999999;
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+form .field input:focus ~ label,
+form .field input:valid ~ label{
+  top: 0%;
+  font-size: 16px;
+  color: #4158d0;
+  background: #fff;
+  transform: translateY(-50%);
+}
+
+
+.wrapper-feedbackform form .field2{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+.wrapper-feedbackform form .field2 input{
+  height: 100%;
+  width: 70%;
+  margin-left: 75px;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.wrapper-feedbackform form .field2 input:focus,
+form .field2 input:valid{
+  border-color: #4158d0;
+}
+.wrapper-feedbackform form .field2 label{
+  position: absolute;
+  top: 50%;
+  left: 95px;
+  color: #999999;
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+form .field2 input:focus ~ label,
+form .field2 input:valid ~ label{
+  top: 0%;
+  font-size: 16px;
+  color: #4158d0;
+  background: #fff;
+  transform: translateY(-50%);
+}
+
+
+
+
+
+.wrapper-feedbackform form .field3{
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+ .wrapper-feedbackform form .field3 input{
+  height: 100%;
+  width: 70%;
+  margin-left: 75px;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid lightgrey;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.wrapper-feedbackform form .field3 input:focus,
+form .field3 input:valid{
+  border-color: #4158d0;
+}
+.wrapper-feedbackform form .field3 label{
+  position: absolute;
+  top: 50%;
+  left: 95px;
+  color: #999999;
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+form .field3 input:focus ~ label,
+form .field3 input:valid ~ label{
+  top: 0%;
+  font-size: 16px;
+  color: #4158d0;
+  background: #fff;
+  transform: translateY(-50%);
+}
+
+.wrapper-feedbackform form .field3 input[type="submit"]{
+    color:black;
+    border: none;
+    padding-left: 0;
+    margin-top: 65px;
+    margin-left: 240px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    background: #FFC107 !important;
+    transition: all 0.3s ease;
+    width: 25%;
+    height: 80%;
+   
+  }
+  .wrapper-feedbackform form .field3 input[type="submit"]:active{
+    transform: scale(0.95);
+  }

@@ -1,0 +1,12 @@
+.section{
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    height: 60vh;
+}
+
+.Link{
+    text-decoration: none;
+}
