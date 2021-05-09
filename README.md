@@ -1,14 +1,22 @@
-step 1 : Install Visual studio code editor
+Step 1 : Install Visual Studio Code editor and Node.js
 
-step 2 : Create account on mongodb atlas and replace URL from mongodb.connect (in server.js file)
+Step 2 : Create an account on MongoDB atlas. In MongoDB atlas, go to cluster; then go to connect after that select connect your application. From there copy the URL and replace this URL from mongodb.connect (in server.js file in service-backend folder)
 
-step 3 : Install node-modules in root directory
+Step 3 : Install node-modules in root directory
          Command : npm install node-modules
-         install node-modules in service-backend folder
+         
+         Install node-modules in service-backend folder
          Command : npm install node-modules
 
-step 4 : Run server.js file in command promt (/src/service-backend/server.js) (keep open mongodb atlas in  background)
-         Command : node server.js
+Step 4 : Now open project folder in Command Prompt or Git Bash (keep open MongoDB atlas in background)
+         Install nodemon globally
+         Command : npm install -g nodemon
+         
+         Then change the directory
+         Command : cd src/service-backend
+         
+         Now Run server.js file
+         Command : nodemon server.js
 
-step 5 : Run react app in visual studio terminal
+Step 5 : Run react app in Visual Studio terminal
          Command : npm start
